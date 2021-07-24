@@ -39,14 +39,7 @@ namespace POS__System.Controllers
             var result = await _db.Add(P);
             return Ok(result);
         }
-        [HttpGet("GetProductbyId")]
-        public async Task<IActionResult> GetProductbyId(int id)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest();
-            var result = await _db.GetProductByID(id);
-            return Ok(result);
-        }
+     
 
         [HttpDelete("DeleteProduct")]
         public async Task<IActionResult> DeleteProduct(int id)
@@ -54,6 +47,14 @@ namespace POS__System.Controllers
             if (!ModelState.IsValid)
                 return BadRequest();
             var result = await _db.DeleteProduct(id);
+            return Ok(result);
+        }
+        [HttpGet("GetAllType")]
+        public async Task<IActionResult> GetAllType()
+        {
+            if (!ModelState.IsValid)
+                return BadRequest();
+            var result = await _db.GetAllType();
             return Ok(result);
         }
     }

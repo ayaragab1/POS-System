@@ -17,4 +17,9 @@ export class ProductService {
       addNew
     );
   }
+  getAllTypes(){
+    return this.http.get<Products[]>(
+      'https://localhost:44353/api/Product/GetAllType'
+    );
+  }
 }

@@ -10,6 +10,10 @@ import { InvoiceService } from '../_service/invoice/invoice.service';
 })
 export class InvoiceDetailsComponent implements OnInit {
   Filtration: any;
+  countRow:any;
+  quantityPerItem:any;
+  priceOne:any;
+  totalPayment:any;
   constructor(
     public router: Router,
     public invoiceService: InvoiceService,
@@ -23,9 +27,15 @@ export class InvoiceDetailsComponent implements OnInit {
     this.ac.params.subscribe((par) => {
       this.invoiceService.getInvoiceById(par.id).subscribe((result) => {
         this.invoiceDetails = result;
-        console.log(this.invoiceDetails);
+        this.quantityPerItem=this.invoiceDetails.tQuantity_PerItem
+        this.priceOne=this.invoiceDetails.unit_Price;
+        this.totalPayment=this.invoiceDetails.total_Paymant;
 
+        // console.log(this.invoiceDetails);
+        this.countRow=this.invoiceDetails.product_Name?.length;
+        console.log(this.countRow)
       });
     });
+
   }
 }

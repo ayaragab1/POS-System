@@ -29,6 +29,12 @@
   /* border: 1px  solid #39A6A3 !important;
   color: #39A6A3; */
 }
+.test{
+  width:25%  ;
+  border: none;
+  border: 1px  solid #39A6A3 !important;
+  color: #39A6A3;
+}
 .defult{
   width:25%  ;
   border: 1px  solid #39A6A3 !important;
@@ -121,18 +127,16 @@ color: rgb(122, 205, 243);
 .totalPayment
 {
 text-align: left;
-font-weight: bold;
-border:none; 
-border-top: gainsboro;
+font-weight: bolder;
+border:none;
 background-color: none;
-height: 50px;
-/* padding-left: 2rem; */
+padding-left: 1rem;
 
 }
-/* .noclass{
+.noclass{
   border: none;
    color: rgb(187, 186, 186);
    width:25%  ;
 
-} */
+}
 

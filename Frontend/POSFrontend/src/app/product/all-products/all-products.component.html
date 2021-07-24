@@ -28,30 +28,32 @@
           </div>
         </div>
       </div>
-
+<!--  ngClass="{'background-color':cardtype == Sandwiches ?  'red': 'white'}"
+ngClass="{'test': myValue == Sandwiches}"
+-->
       <!-- Small Cards -->
       <div class="smallCardss">
-        <div class="card mt-3 me-3  defult ">
-          <div class="card-body" (click)="changeType($event)">
+        <div #Sandwiches class="card mt-3 me-3  insideSmallCardss" [ngClass]="{'test': cardtype == 'Sandwiches'} ">
+          <div  class="card-body" (click)="changeType($event)">
             <h5 class="card-title text-center ">Sandwiches</h5>
           </div>
         </div>
-        <div class="card  mt-3 me-3 insideSmallCardss ">
+        <div #Coffee class="card  mt-3 me-3  insideSmallCardss" [ngClass]="{'test': cardtype == 'Coffee'}">
           <div class="card-body" (click)="changeType($event)">
             <h5 class="card-title  text-center">Coffee</h5>
           </div>
         </div>
-        <div class="card  mt-3 me-3 insideSmallCardss">
+        <div #Snakes class="card  mt-3 me-3 insideSmallCardss" [ngClass]="{'test': cardtype == 'Snakes'}">
           <div class="card-body" (click)="changeType($event)">
             <h5 class="card-title  text-center">Snakes</h5>
           </div>
         </div>
-        <div class="card  mt-3 me-3 insideSmallCardss">
+        <div #Desserts class="card  mt-3 me-3 insideSmallCardss" [ngClass]="{'test': cardtype == 'Desserts'}">
           <div class="card-body" (click)="changeType($event)">
             <h5 class="card-title  text-center">Desserts</h5>
           </div>
         </div>
-        <div class="card  mt-3 insideSmallCardss">
+        <div #Beverages class="card  mt-3 insideSmallCardss" [ngClass]="{'test': cardtype == 'Beverages'}">
           <div class="card-body" (click)="changeType($event)">
             <h5 class="card-title  text-center">Beverages</h5>
           </div>
@@ -92,9 +94,9 @@
             </tbody>
           </table>
         </div>
-        <button class="totalPayment" (click)="totalInv()">Total {{itemArray}}</button>
+        <p class="totalPayment" (click)="totalInv()">Total {{itemArray}} L.E</p>
         <div class="card-footer rightCardFooter">
-          <button class="btn btnFooter" (click)="addBill()">
+          <button class="btn btnFooter"  [disabled]="itemArray==0" (click)="addBill()">
             Pay
           </button>
         </div>
@@ -133,7 +135,7 @@
   />
   <datalist id="typename">
     <option
-      *ngFor="let type of allProducts"
+      *ngFor="let type of types"
       [value]="type.type_Name"
     >
       {{ type.type_Name }}

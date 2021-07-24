@@ -79,9 +79,10 @@ namespace POS__System.Services
             return All;
         }
 
-        public async Task<Products> GetProductByID(int ID)
+        public async Task<List<Types>> GetAllType()
         {
-            throw new Exception(); 
+            var allType = await _db.Types.ToListAsync();
+            return allType; 
         }
     }
 }

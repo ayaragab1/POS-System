@@ -11,7 +11,7 @@ namespace POS__System.Services.Interface
     {
         Task<List<NewProductModel>> GetAll();
         Task<NewProductModel> Add(NewProductModel P);
-        Task<Products> GetProductByID(int ID);
+        Task<List<Types>> GetAllType();
         Task<bool> DeleteProduct(int ID);
     }
 }

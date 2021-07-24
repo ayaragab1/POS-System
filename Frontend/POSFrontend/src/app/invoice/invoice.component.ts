@@ -29,8 +29,9 @@ export class InvoiceComponent implements OnInit {
     this.toBeDel = idD;
   }
   delete() {
-    this.invoiceService.deleteInvoice(this.toBeDel).subscribe((a) => {});
-    window.location.reload();
+    this.invoiceService.deleteInvoice(this.toBeDel).subscribe((a) => {
+      location.reload();
+    });
   }
   details(id: any) {
     this.router.navigate(['/detailedInvoice/', id]);

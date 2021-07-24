@@ -27,6 +27,8 @@ export class AllProductsComponent implements OnInit {
   itemArray: number = 0;
   changeColor: boolean = false;
   array: any;
+  types: any;
+  cardtype:any;
   constructor(
     private productService: ProductService,
     private invoiceService: InvoiceService
@@ -55,9 +57,9 @@ export class AllProductsComponent implements OnInit {
 
     this.productsFilter = filtered.slice();
   }
-  //add new item
+  //add new Product
   addNewProduct(type:any) {
-    console.log(type); 
+    console.log(type);
     this.addProduct.type_Name=type;
     this.productService.addNewProduct(this.addProduct).subscribe((a) => {
       window.location.reload();
@@ -77,24 +79,21 @@ export class AllProductsComponent implements OnInit {
       price: this.pricePerOne,
       total: this.totalBill,
     });
+    this.totalInv();
   }
   //total Payment
   totalInv() {
-    debugger;
     this.itemArray = 0;
     this.test = [];
     for (let i = 0; i < this.fieldArray.length; i++) {
       this.test.push(this.fieldArray[i].total);
       console.log(this.test);
     }
-    //  //to convert from string to number
-    //   this.test2=this.test.map(function(value) {
-    //     return Number(value);
-    //    });
     //to Do Sum Operation
     this.itemArray = this.test.reduce(function (a: number, b: number) {
       return a + b;
     });
+
   }
   //Increase Quantity
   increase(i: any) {
@@ -104,6 +103,7 @@ export class AllProductsComponent implements OnInit {
     var price = this.fieldArray[i].price;
     this.totalBill = price * newQ;
     this.fieldArray[i].total = this.totalBill;
+    this.totalInv();
   }
   //decrease Quantity
   decrease(i: any) {
@@ -115,23 +115,27 @@ export class AllProductsComponent implements OnInit {
       var price = this.fieldArray[i].price;
       this.totalBill = price * newQ;
       this.fieldArray[i].total = this.totalBill;
+      this.totalInv();
     }
   }
   //delete Row from table
   deleteRow(index: any) {
     this.fieldArray.splice(index, 1);
+    this.totalInv();
+
   }
   changeType(type: any) {
+    debugger;
     console.log(type);
     //  var types= type.target.childNodes[0].data;
-    var types = type.target.outerText;
-    console.log(types);
+    this.cardtype = type.target.outerText;
+    console.log(this.cardtype );
 
     this.productsFilter = this.allProducts.slice();
     let filtered: Products[] = [];
 
     for (let selected of this.productsFilter) {
-      if (selected.type_Name == types) {
+      if (selected.type_Name == this.cardtype ) {
         filtered.push(selected);
       }
     }
@@ -181,5 +185,11 @@ export class AllProductsComponent implements OnInit {
       this.array =this.productsFilter;
       console.log(a);
     });
+    this.productService.getAllTypes().subscribe((a) => {
+     this.types=a;
+     console.log(a)
+    });
+    this.cardtype="Sandwiches"
+
   }
 }

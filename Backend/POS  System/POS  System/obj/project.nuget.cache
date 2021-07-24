@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DrYyvPTUbCQrKsh+/JTacJzZeM7es0bR+AXW2LsHIUbAzj59ftaVGLwOiKECwmih597CvkBD/i8D4FvZCXAB9Q==",
+  "dgSpecHash": "s0nsJ8Zz5NjoPcgTNDnHvAmBhuCL+gPljpQFl2GMMlcpebXvH04Y0kvAnBNC9aJbZ9XHu5uywoMPCjipsMf0fA==",
   "success": true,
-  "projectFilePath": "G:\\Local Disk D_21820211217\\POS--main\\Backend\\POS  System\\POS  System\\POS  System.csproj",
+  "projectFilePath": "G:\\Local Disk D_21820211217\\UIS\\Backend\\POS  System\\POS  System\\POS  System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Blu-Ray\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Blu-Ray\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.8\\microsoft.aspnetcore.jsonpatch.5.0.8.nupkg.sha512",
