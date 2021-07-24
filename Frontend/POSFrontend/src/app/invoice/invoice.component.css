@@ -1,0 +1,84 @@
+.container {
+  margin-top: 90px;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  /* background: rgb(188, 195, 197); */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 5px;
+  border-spacing: 15px;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+th,
+td {
+  padding: 12px 15px;
+
+  border: solid 1px rgb(169, 204, 214);
+
+  width: 80px;
+  overflow: hidden;
+}
+.tbodyy tr:nth-child(odd){background-color: #f2f2f2;}
+.tbodyy tr:hover {
+  background-color: #54bdb957;
+  color: white;
+}
+
+
+thead tr {
+  background-color: #39A6A3;
+  color: #ffffff;
+  text-align: center;
+}
+
+#invoice-num{
+  padding-top: 0.5 rem;
+  font-weight: bold;
+}
+.searchinput{
+  height: 30px;
+  border-color: #cbd7da;
+  display: inline;
+}
+
+
+.operationbtn
+{
+  margin: 0.2rem;
+}
+
+.upper-part{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+
+.btnbilladd{
+  margin: 0.2rem;
+  width:8rem;
+  background-color: rgb(16, 146, 103);
+  color: white;
+}
+.btncxadd{
+  margin: 0.2rem;
+  width:12rem;
+  background-color: #39A6A3;
+  color: white;
+
+}
+

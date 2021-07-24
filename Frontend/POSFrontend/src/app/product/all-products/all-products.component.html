@@ -1,0 +1,154 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="card cardBig ">
+        <div class="card-body">
+          <div class="cardTile">
+            <a class="nav-link" routerLink="/addNewProduct" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <p class="card-title bigCardTitle">
+                <i class="fa fa-plus" aria-hidden="true"></i>Add New Product
+              </p>
+            </a>
+            <!-- <input type="text" class="searchinput " placeholder="Search" aria-label="Search"
+          aria-describedby="search-addon" (ngModelChange)='checkSearchVal()' [(ngModel)]="id" /> -->
+
+            <input type="text" class=" searchinput" [(ngModel)]="searchVal" (ngModelChange)='checkSearchVal()'
+              placeholder="Search ">
+          </div>
+          <div class="scrollable">
+            <div class="card-text">
+              <div class="card cardInside " *ngFor="let products  of productsFilter">
+                <img src="../../../assets/images/{{products.type_Name}}.jpg" class="card-img-top" alt="image">
+                <div class="card-body" (click)="getData($event)">
+                  <p>{{products.product_Name}}</p>
+                  <p class="price">{{products.unit_Price}} L.E</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Small Cards -->
+      <div class="smallCardss">
+        <div class="card mt-3 me-3  defult ">
+          <div class="card-body" (click)="changeType($event)">
+            <h5 class="card-title text-center ">Sandwiches</h5>
+          </div>
+        </div>
+        <div class="card  mt-3 me-3 insideSmallCardss ">
+          <div class="card-body" (click)="changeType($event)">
+            <h5 class="card-title  text-center">Coffee</h5>
+          </div>
+        </div>
+        <div class="card  mt-3 me-3 insideSmallCardss">
+          <div class="card-body" (click)="changeType($event)">
+            <h5 class="card-title  text-center">Snakes</h5>
+          </div>
+        </div>
+        <div class="card  mt-3 me-3 insideSmallCardss">
+          <div class="card-body" (click)="changeType($event)">
+            <h5 class="card-title  text-center">Desserts</h5>
+          </div>
+        </div>
+        <div class="card  mt-3 insideSmallCardss">
+          <div class="card-body" (click)="changeType($event)">
+            <h5 class="card-title  text-center">Beverages</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card  rightCard">
+        <div class="card-header rightCardHeader">Checkout</div>
+        <div class="card-body ">
+          <table class="table ">
+            <thead>
+              <tr class="thEadEdits">
+                <th scope="col"></th>
+                <th scope="col">Name </th>
+                <th scope="col">QTY</th>
+                <th scope="col">Price</th>
+                <th scope="col"> Total </th>
+              </tr>
+            </thead>
+            <tbody class="tbodyOverAll">
+              <tr *ngFor="let field of fieldArray; let i = index">
+                <th scope="row">
+                  <i (click)="deleteRow(i)" class="fa fa-trash-o" aria-hidden="true"></i>
+                </th>
+                <td>{{field.name}}
+
+                </td>
+                <td>
+                  <i (click)="increase(i)" class="fa fa-plus-square-o icons" aria-hidden="true"></i>
+                  {{field.quntity}}
+                  <i (click)="decrease(i)" class="fa fa-minus-square-o icons" aria-hidden="true"></i>
+                </td>
+                <td>{{field.price}} L.E</td>
+                <td colspan=i>{{fieldArray[i].total}} L.E</td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button class="totalPayment" (click)="totalInv()">Total {{itemArray}}</button>
+        <div class="card-footer rightCardFooter">
+          <button class="btn btnFooter" (click)="addBill()">
+            Pay
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- Modal To Add New Product  -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          Enter Product Details:
+        </h5>
+
+        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-danger">
+        <input type="text" class="input-search form-control search-slt" id="prodName" #prodName name="prodName"
+          placeholder="Product Name" [(ngModel)]="addProduct.product_Name" />
+        <input type="text" class="input-search form-control search-slt" id="prodName" #prodName name="prodName"
+          placeholder="Unit Price" [(ngModel)]="addProduct.unit_Price" />
+
+    <input
+    type="text"
+    class="nput-search form-control search-slt"
+    id="product"
+    [(ngModel)]="addProduct.type_Name"
+    #productselect
+    name="typename"
+    placeholder="Type"
+    list="typename"
+  />
+  <datalist id="typename">
+    <option
+      *ngFor="let type of allProducts"
+      [value]="type.type_Name"
+    >
+      {{ type.type_Name }}
+    </option>
+  </datalist>
+      </div>
+      <div class="modal-footer">
+
+        <button type="button" class="btn btnClose" data-bs-dismiss="modal">
+          close
+        </button>
+        <button type="button" class="btn btnSubmit" data-bs-dismiss="modal" (click)="addNewProduct(productselect.value)">
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

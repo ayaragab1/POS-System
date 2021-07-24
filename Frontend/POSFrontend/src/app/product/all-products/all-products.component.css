@@ -1,0 +1,138 @@
+
+
+.cardBig{
+  height: 34rem;
+  background: white;
+}
+.scrollable{
+  overflow-y: auto;
+  max-height: 30rem;
+}
+.card-text{
+  display: flex !important;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+.smallCardss{
+  display: flex ;
+   color: rgb(187, 186, 186);
+}
+.insideSmallCardss:hover{
+  border: 1px  solid #39A6A3 !important;
+  color: #39A6A3;
+}
+
+.insideSmallCardss{
+  width:25%  ;
+  border: none;
+  /* border: 1px  solid #39A6A3 !important;
+  color: #39A6A3; */
+}
+.defult{
+  width:25%  ;
+  border: 1px  solid #39A6A3 !important;
+  color: #39A6A3;
+}
+.cardInside
+{
+   border: none;
+   width:20% !important ;
+}
+
+
+.card-img-top{
+  width: 7rem;
+  border-radius: 1rem;
+}
+.price{
+  color:#39A6A3
+}
+.rightCard{
+  height: 100%;
+  background-color: white;
+}
+.rightCardFooter{
+  background-color:#39A6A3 ;
+}
+.btnFooter{
+  width: 100%;
+  text-align: center;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+.rightCardHeader{
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  background-color: white;
+}
+.cardTile{
+  display: flex;
+}
+.searchinput{
+  /* margin-right: 2rem; */
+  height: 30px;
+  border-radius: 90px !important;
+  width: 240px;
+  background: #ebedee;
+  border:none ;
+  /* text-align: center; */
+  padding-left: 1rem;
+}
+.bigCardTitle{
+  margin-right: 25rem;
+}
+.bigCardTitle:hover{
+color: rgb(122, 205, 243);
+}
+
+/* Modal  */
+.btnSubmit{
+  width: 30%;
+  background-color: #ff0000;
+  color: white;
+}
+.btnClose{
+  width: 30%;
+  background-color: #99a2ac;
+  color: white;
+}
+.fade{
+  top: 30%;
+
+}
+/* table */
+
+.thEadEdits{
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+.tbodyOverAll{
+  text-align: center;
+
+}
+.icons{
+  color:#39A6A3 ;
+  width: 2rem;
+  font-size: larger;
+}
+.totalPayment
+{
+text-align: left;
+font-weight: bold;
+border:none; 
+border-top: gainsboro;
+background-color: none;
+height: 50px;
+/* padding-left: 2rem; */
+
+}
+/* .noclass{
+  border: none;
+   color: rgb(187, 186, 186);
+   width:25%  ;
+
+} */
+

@@ -1,0 +1,128 @@
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\appsettings.Development.json
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\appsettings.json
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.exe
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.deps.json
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.runtimeconfig.json
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.runtimeconfig.dev.json
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\ref\POS  System.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.pdb
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.OpenApi.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.GeneratedMSBuildEditorConfig.editorconfig
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.AssemblyInfoInputs.cache
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.AssemblyInfo.cs
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.csproj.CoreCompileInputs.cache
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.MvcApplicationPartsAssemblyInfo.cs
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.MvcApplicationPartsAssemblyInfo.cache
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\staticwebassets\POS  System.StaticWebAssets.Manifest.cache
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\staticwebassets\POS  System.StaticWebAssets.xml
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\scopedcss\bundle\POS  System.styles.css
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.RazorTargetAssemblyInfo.cache
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.csproj.CopyComplete
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\ref\POS  System.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.pdb
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.genruntimeconfig.cache
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Humanizer.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Newtonsoft.Json.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\System.Runtime.Caching.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Local Disk D_21820211217\UIS\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.csprojAssemblyReference.cache
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\appsettings.Development.json
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\appsettings.json
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.exe
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.deps.json
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.runtimeconfig.json
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.runtimeconfig.dev.json
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\ref\POS  System.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\POS  System.pdb
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Humanizer.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Microsoft.OpenApi.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Newtonsoft.Json.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\System.Runtime.Caching.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.csprojAssemblyReference.cache
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.GeneratedMSBuildEditorConfig.editorconfig
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.AssemblyInfoInputs.cache
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.AssemblyInfo.cs
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.csproj.CoreCompileInputs.cache
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.MvcApplicationPartsAssemblyInfo.cs
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.MvcApplicationPartsAssemblyInfo.cache
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\staticwebassets\POS  System.StaticWebAssets.Manifest.cache
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\staticwebassets\POS  System.StaticWebAssets.xml
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\scopedcss\bundle\POS  System.styles.css
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.RazorTargetAssemblyInfo.cache
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.csproj.CopyComplete
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\ref\POS  System.dll
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.pdb
+G:\Local Disk D_21820211217\POS--main\Backend\POS  System\POS  System\obj\Debug\net5.0\POS  System.genruntimeconfig.cache
