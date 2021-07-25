@@ -170,6 +170,9 @@ export class AllProductsComponent implements OnInit {
     console.log(this.objToBeSent);
 
     this.invoiceService.addInvoice(this.objToBeSent).subscribe((a) => {});
+    this.clearOrder();
+  }
+  clearOrder(){
     this.fieldArray.splice(0);
     this.itemArray = 0;
   }

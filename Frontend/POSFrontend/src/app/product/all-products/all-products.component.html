@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="container mt-4">
   <div class="row">
     <div class="col-lg-8">
       <div class="card cardBig ">
@@ -28,9 +28,8 @@
           </div>
         </div>
       </div>
-<!--  ngClass="{'background-color':cardtype == Sandwiches ?  'red': 'white'}"
-ngClass="{'test': myValue == Sandwiches}"
--->
+
+
       <!-- Small Cards -->
       <div class="smallCardss">
         <div #Sandwiches class="card mt-3 me-3  insideSmallCardss" [ngClass]="{'test': cardtype == 'Sandwiches'} ">
@@ -58,6 +57,9 @@ ngClass="{'test': myValue == Sandwiches}"
             <h5 class="card-title  text-center">Beverages</h5>
           </div>
         </div>
+      </div>
+      <div class="card-body cancelorder" (click)="clearOrder()">
+        <p class="card-title  text-center">Cancel Order</p>
       </div>
     </div>
     <div class="col-lg-4">
@@ -101,7 +103,9 @@ ngClass="{'test': myValue == Sandwiches}"
           </button>
         </div>
       </div>
+      <div >
 
+      </div>
     </div>
   </div>
 
